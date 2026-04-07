@@ -18,5 +18,9 @@ server.use(/^(?!\/(public|livros|autores|categorias)).*$/, authenticationMiddlew
 server.use(router) //rotas na prota 3000
 
 server.listen(8000, () => {
+<<<<<<< HEAD
   console.log("Endereço de acesso à API http://localhost:8000")
+=======
+  console.log("Acesso à API disponível em http://localhost:8000")
+>>>>>>> 951f386061635776bdee5c56a03d70da900a7ce9
 })
